@@ -12,6 +12,10 @@ np.set_printoptions(suppress=True)
 
 class binomialTree:
     def __init__(self,rf=0.05,steps=50,vol=0.2,ttm=2):
+
+
+
+
         if(steps < 1):
             raise Exception("Invalid steps", steps)
         if(vol < 0):
